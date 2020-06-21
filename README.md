@@ -39,7 +39,8 @@ By default uses it's own files to check, checks with other files if specified:
 ```
 #### Express check:
 As leaks & memory check takes quite a bit of time, tester supports express mode:
-```./test_asm/tester.py -e
+```
+./test_asm/tester.py -e
 ```
 
 #### Verbose mode:
