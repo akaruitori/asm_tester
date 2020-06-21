@@ -16,7 +16,7 @@ At the corewar project root folder do the following:
 git clone https://github.com/akaruitori/asm_tester.git test_asm
 ```
 
-Before the first launch make sure that assembler compiled and change the name of executable to compare results with in file **`tester_congig.py`**:
+Before the first launch make sure that your assembler is compiled, and change the name of executable to compare results with in file **`tester_congig.py`**:
 ```python
 school_asm = 'test_asm/school_asm_mac'
 ```
