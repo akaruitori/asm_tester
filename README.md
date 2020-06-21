@@ -10,7 +10,13 @@ _Tester script for assembler program from school 42's project Corewar_
 
 **_Needs python 3.6+ and valgrind_**
 
-Before the first launch change the executable to compare results with in file **`tester_congig.py`**:
+### Installation:
+At the corewar project root folder do the following:
+```sh
+git clone https://github.com/akaruitori/asm_tester.git test_asm
+```
+
+Before the first launch make sure that assembler compiled and change the name of executable to compare results with in file **`tester_congig.py`**:
 ```python
 school_asm = 'test_asm/school_asm_mac'
 ```
@@ -18,6 +24,8 @@ or
 ```python
 school_asm = 'test_asm/school_asm_linux'
 ```
+Note that path to tested assembler also can be modified.
+
 
 ### Usage:
 ```
